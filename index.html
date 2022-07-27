@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <p class="title">Weather</p>
+        <div class="weather">
+            <div class="temperature">32°</div>
+            <div class="location_date">
+                <div class="location l_d_item">Hà Nội</div>
+                <div class="date l_d_item">16:2 - Monday, 1 Jul '22</div>
+            </div>
+            <div class="icon_status">
+                <img class="icon" src="./assets/icons/clear.svg">
+                <div class="status">clear</div>
+            </div>
+        </div>
+        <div class="container_menu">
+            <form class="search">
+                <div class="search_container">
+                    <input class="searchBar" type="text" placeholder="Another Location">
+                    <a href="#"  class="searchIconBtn">
+                        <img class="searchIcon" src="./assets/icons/search.svg" alt="Search">
+                    </a>
+                </div>
+                <ul class="recCities">
+                    <li class="recCity">Hà Nội</li>
+                    <li class="recCity">Hải Phòng</li>
+                    <li class="recCity">Đà Nẵng</li>
+                    <li class="recCity">Cần Thơ</li>
+                </ul>
+            </form>
+            <hr class="line">
+            <div class="details-container">
+                <h1>Weather Details</h1>
+                <ul>
+                    <li>
+                        Cloudy
+                        <p class="data_Cloudy">0%</p>
+                    </li>
+                    <li>
+                        Humidity
+                        <p class="data_Humidity">82%</p>
+                    </li>
+                    <li>
+                        Wind
+                        <p class="data_Wind">5.66km/h</p>
+                    </li>
+                    <li>
+                        Rain
+                        <p class="data_Rain">0nm</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
