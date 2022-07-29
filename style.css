@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 body {
-    background-image: url("./assets/images/clear.jpg");
+    background-image: url("./assets/images/clouds.jpg");
     margin: 0;
     padding: 0;
     color: white;
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 1.5vw;
 }
 p {
     margin: 0
@@ -38,7 +38,7 @@ ul {
     height: 10vw;
 }
 .temperature {
-    font-size: 105px;
+    font-size: 7vw;
     padding: 0;
     margin: 0;;
     width: 30%;
@@ -56,7 +56,7 @@ ul {
     
 }
 .location {
-    font-size: 50px;
+    font-size: 3.8vw;
     display: flex;
     align-items: flex-end;
 }
@@ -120,4 +120,14 @@ ul {
 }
 .line {
     margin: 2vw 0;
+}
+li {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-top: 2vw;
+}
+.li_item {
+    width: 80%;
+    text-align: center;
 }
